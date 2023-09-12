@@ -29,3 +29,23 @@ the main questions they’d like to answer:
 
 A relational database made up of 15 tables containing data on rental payments, films, customers, etc. Descriptions of tables and entity relationship diagram can be found in the Rockbuster Data Dictionary here. Visualizations for this project can be found on Tableau here. 
 
+## Tools 
+
+Language: PostgreSQL
+Software: pgAdmin, Lucidchart, Tableau, Excel 
+
+## Skills Demonstrated 
+
+**Creating Entity Relationship Diagram:** Created with Lucidchart 
+
+**Filtering Data:** Filtered using where, having, and case statments 
+
+**Cleaning Data:** Used SQL queries to find duplicate date, incorrect data, non-uniform data, and missing data 
+
+**Joining Tables:** Selected inner, outer, left, or right joins in ordre to minimize time and memory needed 
+
+**Descriptive Statistics:** Performed basic statstics (mean, min, max, mode) for variables 
+
+**Subqueries and Common Table Expressions (CTE's):** Created subqueries and CTE's to make code more readable, easier to reuse, and minimize time and memory needed 
+
+**Reporting Results:** A Powerpoint presentation with visualizations from Tableau to answer key questions and make recommendations. 
