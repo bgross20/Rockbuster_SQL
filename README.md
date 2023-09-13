@@ -27,7 +27,7 @@ the main questions they’d like to answer:
 
 ## Data 
 
-A relational database made up of 15 tables containing data on rental payments, films, customers, etc. Descriptions of tables and entity relationship diagram can be found in the Rockbuster Data Dictionary here. Visualizations for this project can be found on Tableau here. 
+A relational database made up of 15 tables containing data on rental payments, films, customers, etc. Descriptions of tables and entity relationship diagram can be found in the Rockbuster Data Dictionary. Visualizations for this project can be found on Tableau [here](https://public.tableau.com/app/profile/brittney.gross/viz/Top10Customers_16880693356870/Sheet1). 
 
 ## Tools 
 
