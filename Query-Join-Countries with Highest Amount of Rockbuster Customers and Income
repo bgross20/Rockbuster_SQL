@@ -1,4 +1,4 @@
-# Query-Join-Countries with Highest Amount of Rockbuster Customers
+# Query-Join-Countries with Highest  of Rockbuster Customers
 
 Select sum(e.amount) as total_payment,
 	   count(distinct(A.customer_id)) as customer_count,
