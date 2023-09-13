@@ -1,0 +1,12 @@
+# Query-Join-Countries with Highest Amount of Rockbuster Customers
+
+Select sum(e.amount) as total_payment,
+	   count(distinct(A.customer_id)) as customer_count,
+	   D.country
+from customer A
+	   Inner join address B on A.address_id = B.address_id
+	   Inner join city C on B.city_id = C.city_id
+	   Inner join country D on C.country_id = D.country_id
+	   Left join payment E on A.customer_id = E.customer_id
+Group by country
+Order by total_payment desc;
