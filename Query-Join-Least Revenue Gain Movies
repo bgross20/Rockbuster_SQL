@@ -1,0 +1,13 @@
+#Query-Join-Least Revenue Gain Movies 
+
+Select E. title, 
+            E. rating,
+       Sum(A.amount) as total_revenue 
+From payment A 
+  Inner join rental B on A.rental_id = B.rental_id 
+  Inner join inventory C on B.inventory_id = C.inventory_id
+  Inner join film_category D on C.film_id = D.film_id
+  Inner join film E on C.film_id = E.film_id 
+Group by title, rating
+Order by total_revenue 
+Limit 10;
