@@ -1,0 +1,25 @@
+# Query-Join-Top Genres in Top 5 Selling Countries
+
+Select Country, 
+	   Name as movie_genre,
+	   sum(A.amount) as total_revenue 
+from payment A 
+	   Inner join rental B 
+	        on A. rental_id = B.rental_id
+	   Inner join inventory C
+	        on B. inventory_id = C.inventory_id 
+	   Inner join film_category D
+	        on C. film_id = D.film_id 
+	   Inner join category E
+	        on D.category_id = E.category_id
+	   Inner join customer F
+	        on B. customer_id = F. customer_id
+	   Inner join address G
+	        on F. address_id = G.address_id
+	   Inner join city H
+	        on G.city_id = H.city_id
+	   Inner join country I 
+	        on H.country_id = I.country_id
+Where country in ('India', 'China', 'United States', 'Japan', 'Mexico')
+Group by country, name
+Order by total_revenue desc;
