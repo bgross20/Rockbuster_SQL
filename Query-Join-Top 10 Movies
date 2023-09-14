@@ -1,4 +1,4 @@
-# Query-Join-Top 10 Movies 
+# A query using joins to fine the top 10 movies 
 
 Select E. title, 
             E. rating,
