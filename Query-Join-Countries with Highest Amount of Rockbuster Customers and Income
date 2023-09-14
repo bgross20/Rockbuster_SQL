@@ -1,4 +1,4 @@
-# Query-Join-Countries with Highest Number of Rockbuster Customers and Income 
+# A query using joins to find countries with highest number of Rockbuster customers and income 
 
 Select sum(e.amount) as total_payment,
 	   count(distinct(A.customer_id)) as customer_count,
