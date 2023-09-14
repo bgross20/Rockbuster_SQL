@@ -1,3 +1,5 @@
+# Query-Join-Top 5 Customers
+
 Select sum(E.amount) as total_amount_paid, 
 	   D. country, 
 	   C. city,
