@@ -1,4 +1,4 @@
-# Query-Join-Top Genres in Top 5 Selling Countries
+# A query using joins to find the top genres in the top 5 selling countries
 
 Select Country, 
 	   Name as movie_genre,
