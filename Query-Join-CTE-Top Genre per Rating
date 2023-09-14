@@ -1,4 +1,4 @@
-# Query-Join-CTE-Top Genre per Rating
+# A query using joins and CTE to find the top genre per rating
 
 WITH category_name_cte (film_id, rating, category_name) AS
   (SELECT A.film_id,
