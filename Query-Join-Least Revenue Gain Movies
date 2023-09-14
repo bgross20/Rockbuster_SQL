@@ -1,4 +1,4 @@
-#Query-Join-Least Revenue Gain Movies 
+# A query using joins to find the least revenue gaining movies 
 
 Select E. title, 
             E. rating,
