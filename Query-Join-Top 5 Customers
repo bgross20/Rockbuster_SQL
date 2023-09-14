@@ -1,4 +1,4 @@
-# Query-Join-Top 5 Customers
+# A query using joins to find the top 5 customers
 
 Select sum(E.amount) as total_amount_paid, 
 	   D. country, 
