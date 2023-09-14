@@ -1,4 +1,4 @@
-# Query-Join-Revenue by Rating 
+# A query using joins to find revenue by rating 
 
 Select D. rating, 
             Sum(A.amount) as total_revenue 
