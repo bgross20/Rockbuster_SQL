@@ -32,6 +32,7 @@ A relational database made up of 15 tables containing data on rental payments, f
 ## Tools 
 
 Language: PostgreSQL
+
 Software: pgAdmin, Lucidchart, Tableau, Excel 
 
 ## Skills Demonstrated 
